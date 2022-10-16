@@ -1,0 +1,59 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+    min-height: 100vh;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 200px;
+  background-color: #343434;
+  gap: 5px;
+
+ 
+}
+#zero{
+  grid-column: 1/3;
+}
+.result{
+    grid-column: 1 / -1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding: 5px;
+    font-size: 5.5em;
+    font-weight: initial;
+    text-shadow: 1.3px 1.3px #2C3A5A;
+    margin: 5px;
+}
+
+
+button{
+  padding: 8px;
+  border-radius: 10%;
+
+
+  
+  cursor: pointer;
+  
+}
+
+.number{
+  background-color: #292D32;
+  color: #fff;
+}
+
+.operator{
+    background-color: #3A81FD;
+    color: #fff;
+
+}
